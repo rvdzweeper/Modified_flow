@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timeSeriesImportRun xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews /chps/share/schemas/timeSeriesImportRun.xsd">
+	<import>
+	<general>
+		<importType>generalCSV</importType>
+		<folder>$IMPORT_FOLDER_HIST$/modified_flows</folder>
+		<fileNamePatternFilter>*_reservoir_data.csv</fileNamePatternFilter>
+		<fileNameLocationIdPattern>(.*)_20[2].*_reservoir_data.csv</fileNameLocationIdPattern>
+		<table>
+			<dateTimeColumn pattern="MM/dd/yyyy"/>
+			<valueColumn parameterId="A" unit="KCFSD"/>
+			<valueColumn parameterId="H" unit="KCFSD"/>
+			<valueColumn parameterId="FBEL" unit="FT"/>
+			<valueColumn parameterId="RSTO" unit="KAF"/>
+			<valueColumn parameterId="L" unit="CFSD"/>
+			<valueColumn parameterId="U" unit="CFSD"/>
+			<valueColumn parameterId="R" unit="CFSD"/>
+		</table>		
+		<idMapId>IdImportMODIFIEDFLOWS_2030</idMapId>
+		<unitConversionsId>ImportEnglishUnits_MF</unitConversionsId>
+		<missingValue>-9999</missingValue>
+		<expiryTime unit="year" multiplier="100"/>
+		<skipFirstLinesCount>8</skipFirstLinesCount>
+	</general>
+	
+	<timeSeriesSet>
+		<moduleInstanceId>Import_2030_submittals</moduleInstanceId>
+		<valueType>scalar</valueType>
+		<parameterId>A</parameterId>
+		<qualifierId>raw</qualifierId>
+		<locationSetId>ModifiedFlows</locationSetId>
+		<timeSeriesType>external historical</timeSeriesType>
+		<timeStep unit="day" multiplier="1"/>
+		<readWriteMode>add originals</readWriteMode>
+		<synchLevel>4</synchLevel>
+	</timeSeriesSet>
+	
+	<timeSeriesSet>
+		<moduleInstanceId>Import_2030_submittals</moduleInstanceId>
+		<valueType>scalar</valueType>
+		<parameterId>H</parameterId>
+		<qualifierId>raw</qualifierId>
+		<locationSetId>ModifiedFlows</locationSetId>
+		<timeSeriesType>external historical</timeSeriesType>
+		<timeStep unit="day" multiplier="1"/>
+		<readWriteMode>add originals</readWriteMode>
+		<synchLevel>4</synchLevel>
+	</timeSeriesSet>
+	
+	<timeSeriesSet>
+		<moduleInstanceId>Import_2030_submittals</moduleInstanceId>
+		<valueType>scalar</valueType>
+		<parameterId>P</parameterId>
+		<qualifierId>raw</qualifierId>
+		<locationSetId>MF_RESERVOIR_IN</locationSetId>
+		<timeSeriesType>external historical</timeSeriesType>
+		<timeStep unit="day" multiplier="1"/>
+		<readWriteMode>add originals</readWriteMode>
+		<synchLevel>4</synchLevel>
+	</timeSeriesSet>
+	<timeSeriesSet>
+		<moduleInstanceId>Import_2030_submittals</moduleInstanceId>
+		<valueType>scalar</valueType>
+		<parameterId>G</parameterId>
+		<qualifierId>raw</qualifierId>
+		<locationSetId>MF_RESERVOIR_IN</locationSetId>
+		<timeSeriesType>external historical</timeSeriesType>
+		<timeStep unit="day" multiplier="1"/>
+		<readWriteMode>add originals</readWriteMode>
+		<synchLevel>4</synchLevel>
+	</timeSeriesSet>
+	
+	<timeSeriesSet>
+		<moduleInstanceId>Import_2030_submittals</moduleInstanceId>
+		<valueType>scalar</valueType>
+		<parameterId>FBEL</parameterId>
+		<qualifierId>raw</qualifierId>
+		<locationSetId>ModifiedFlows</locationSetId>
+		<timeSeriesType>external historical</timeSeriesType>
+		<timeStep unit="day" multiplier="1"/>
+		<readWriteMode>add originals</readWriteMode>
+		<synchLevel>4</synchLevel>
+	</timeSeriesSet>
+	
+	<timeSeriesSet>
+		<moduleInstanceId>Import_2030_submittals</moduleInstanceId>
+		<valueType>scalar</valueType>
+		<parameterId>RSTO</parameterId>
+		<qualifierId>raw</qualifierId>
+		<locationSetId>ModifiedFlows</locationSetId>
+		<timeSeriesType>external historical</timeSeriesType>
+		<timeStep unit="day" multiplier="1"/>
+		<readWriteMode>add originals</readWriteMode>
+		<synchLevel>4</synchLevel>
+	</timeSeriesSet>
+
+	<timeSeriesSet>
+		<moduleInstanceId>Import_2030_submittals</moduleInstanceId>
+		<valueType>scalar</valueType>
+		<parameterId>L</parameterId>
+		<qualifierId>raw</qualifierId>
+		<locationSetId>ModifiedFlows</locationSetId>
+		<timeSeriesType>external historical</timeSeriesType>
+		<timeStep unit="day" multiplier="1"/>
+		<readWriteMode>add originals</readWriteMode>
+		<synchLevel>4</synchLevel>
+	</timeSeriesSet>
+	<timeSeriesSet>
+		<moduleInstanceId>Import_2030_submittals</moduleInstanceId>
+		<valueType>scalar</valueType>
+		<parameterId>U</parameterId>
+		<qualifierId>usbr</qualifierId>
+		<locationId>BRN-MF</locationId>
+		<locationId>PEL-MF</locationId>
+		<locationId>ROU-MF</locationId>
+		<locationId>YAK-MF</locationId>
+		<timeSeriesType>external historical</timeSeriesType>
+		<timeStep unit="day" multiplier="1"/>
+		<readWriteMode>add originals</readWriteMode>
+		<synchLevel>4</synchLevel>
+	</timeSeriesSet>
+
+	<timeSeriesSet>
+		<moduleInstanceId>Import_2030_submittals</moduleInstanceId>
+		<valueType>scalar</valueType>
+		<parameterId>R</parameterId>
+		<qualifierId>usbr</qualifierId>
+		<locationId>BRN-MF</locationId>
+		<locationId>PEL-MF</locationId>
+		<locationId>ROU-MF</locationId>
+		<locationId>YAK-MF</locationId>
+		<timeSeriesType>external historical</timeSeriesType>
+		<timeStep unit="day" multiplier="1"/>
+		<readWriteMode>add originals</readWriteMode>
+		<synchLevel>4</synchLevel>
+	</timeSeriesSet>
+	
+	
+	</import>
+	
+</timeSeriesImportRun>
