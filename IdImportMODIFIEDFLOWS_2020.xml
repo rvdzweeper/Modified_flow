@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2009 sp1 (http://www.altova.com) by ICT (Stichting Deltares) -->
+<idMap version="1.1" xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews /chps/share/schemas/idMap.xsd">
+
+
+	<location internal="11507400" external="Westside_Canal"/>
+<!--	<location internal="ACL-MF" external=""/> -->
+<!--	<location internal="ALB-MF" external=""/> -->
+	<location internal="ALD-MF" external="ald"/>
+	<location internal="ALF-MF" external="alf"/>
+	<location internal="ALF-MF" external="Albeni_Falls"/>
+<!--	<location internal="ANA-MF" external=""/> -->
+<!--	<location internal="APL-MF" external="app"/> -->
+	<location internal="ARD-MF" external="ARD"/>
+	<location internal="ARD-MF" external="HLK"/>
+<!--	<location internal="B23-MF" external=""/> -->
+	<location internal="BCL-MF" external="bcl"/>
+	<location internal="BCL-MF" external="Big_Cliff"/>
+	<location internal="BDY-MF" external="BOUNDARY"/>
+<!--	<location internal="BFE-MF" external=""/> -->
+<!--	<location internal="BIT-MF" external=""/> -->
+	<location internal="BLU-MF" external="blu"/>
+	<location internal="BLU-MF" external="Blue_River"/>
+	<location internal="BON-MF" external="bon"/>
+	<location internal="BON-MF" external="Bonneville"/>
+	<location internal="BOX-MF" external="box"/>
+<!--	<location internal="BRI-MF" external=""/> -->
+	<location internal="BRN-MF" external="Brownlee"/>
+	<location internal="BRN-MF" external="brn"/>
+	<location internal="BRN-MF" external="BRN"/>
+<!--	<location internal="C_S-MF" external=""/> -->
+    	<location internal="CAB-MF" external="cab"/>
+    	<location internal="CAB-MF" external="CAB"/>
+    	<location internal="CAB-MF" external="Cabinet_Gorge"/>
+<!--	<location internal="CAN-MF" external=""/> -->
+<!--	<location internal="CAR-MF" external=""/> -->
+<!--	<location internal="CEW-MF" external=""/> -->
+    	<location internal="CFM-MF" external="Columbia Falls"/>
+	<location internal="CGR-MF" external="cgr"/>
+	<location internal="CGR-MF" external="Cougar"/>
+	<location internal="CHJ-MF" external="chj"/>
+	<location internal="CHJ-MF" external="Chief_Joseph"/>
+	<location internal="CHL-MF" external="chl"/>
+<!--	<location internal="CLR-MF" external=""/> -->
+<!--	<location internal="COE-MF" external=""/> -->
+	<location internal="COR-MF" external="COR"/>
+	<location internal="COR-MF" external="KLK"/>
+	<location internal="COT-MF" external="cot"/>
+	<location internal="COT-MF" external="Cottage_Grove"/>
+	<location internal="CS1-MF" external="Cushman_No._1"/>
+<!--	<location internal="CS2-MF" external=""/> -->
+<!--	<location internal="CTR-MF" external=""/> -->
+	<location internal="DCD-MF" external="DCD"/>
+	<location internal="DCD-MF" external="DDM"/>
+	<location internal="DET-MF" external="det"/>
+	<location internal="DET-MF" external="Detroit"/>
+	<location internal="DEX-MF" external="dex"/>
+	<location internal="DEX-MF" external="Dexter"/>
+	<location internal="DIA-MF" external="DIABLO"/>
+	<location internal="DOR-MF" external="dor"/>
+	<location internal="DOR-MF" external="Dorena"/>
+	<location internal="DWR-MF" external="dwr"/>
+	<location internal="DWR-MF" external="Dworshak"/>
+<!--	<location internal="EKO-MF" external=""/> -->
+	<location internal="FAL-MF" external="fal"/>
+	<location internal="FAL-MF" external="Fall Creek"/>
+	<location internal="FAL-MF" external="Fall_Creek"/>
+	<location internal="FAR-MF" external="far"/>
+<!--	<location internal="FDR-MF" external=""/> -->
+<!--	<location internal="FER-MF" external=""/> -->
+<!--	<location internal="FID-MF" external=""/> -->
+<!--	<location internal="FLT-MF" external=""/> -->
+	<location internal="FOS-MF" external="fos"/>
+	<location internal="FOS-MF" external="Foster"/>
+	<location internal="FQR-MF" external="FQR"/>
+	<location internal="FRN-MF" external="frn"/>
+	<location internal="FRN-MF" external="Fern_Ridge"/>
+<!--	<location internal="GAL-MF" external=""/> -->
+	<location internal="GCL-MF" external="GrandCoulee"/>
+	<location internal="GOR-MF" external="GORGE"/> 
+	<location internal="GPR-MF" external="gpr"/>
+	<location internal="GPR-MF" external="Green_Peter"/>
+	<location internal="GPR-MF" external="14186100"/>
+	<location internal="HCD-MF" external="Hells_Canyon"/>
+	<location internal="HCR-MF" external="hcr"/>
+	<location internal="HCR-MF" external="Hills_Creek"/>
+	<location internal="HGH-MF" external="HungryHorse"/>
+<!--	<location internal="HOD-MF" external=""/> -->
+<!--	<location internal="HYD-MF" external=""/> -->
+	<location internal="IHR-MF" external="ihr"/>
+	<location internal="IHR-MF" external="Ice_Harbor"/>
+	<location internal="JCB-MF" external="JC_Boyle"/>
+	<location internal="JDA-MF" external="jda"/>
+	<location internal="JDA-MF" external="John_Day"/>
+<!--	<location internal="JDP-MF" external=""/> -->
+<!--	<location internal="KEN-MF" external=""/> -->
+    	<location internal="KER-MF" external="skq"/>
+    	<location internal="KER-MF" external="SKQ"/>
+<!--	<location internal="KET-MF" external=""/> -->
+<!--	<location internal="KID-MF" external=""/> -->
+<!--	<location internal="KLA-MF" external=""/> -->
+<!--	<location internal="KLC-MF" external=""/> -->
+<!--	<location internal="KMT-MF" external=""/> -->
+	<location internal="LAG-MF" external="Lagrande"/> 
+<!--	<location internal="LBN-MF" external=""/> -->
+<!--	<location internal="LCF-MF" external=""/> -->
+<!--	<location internal="LEA-MF" external=""/> -->
+<!--	<location internal="LFL-MF" external=""/> -->
+	<location internal="LGS-MF" external="lgs"/>
+	<location internal="LGS-MF" external="Little_Goose"/>
+	<location internal="LIB-MF" external="lib"/>
+	<location internal="LIB-MF" external="Libby"/>
+<!--	<location internal="LIM-MF" external=""/> -->
+<!--	<location internal="LLK-MF" external=""/> -->
+	<location internal="LMN-MF" external="lmn"/>
+	<location internal="LMN-MF" external="Lower_Monumental"/>
+<!--	<location internal="LNK-MF" external=""/> -->
+	<location internal="LOP-MF" external="lop"/>
+	<location internal="LOP-MF" external="Lookout_Point"/>
+	<location internal="LOS-MF" external="los"/>
+	<location internal="LOS-MF" external="Lost_Creek"/>
+<!--	<location internal="LUC-MF" external="Lucky_Peak"/> -->
+	<location internal="LWG-MF" external="lwg"/>
+	<location internal="LWG-MF" external="Lower_Granite"/>
+<!--	<location internal="LWS-MF" external=""/> -->
+<!--	<location internal="MAY-MF" external="may"/> -->
+	<location internal="MAY-MF" external="Mayfield"/>
+	<location internal="MCD-MF" external="MCA"/>
+	<location internal="MCD-MF" external="MCD"/>
+	<location internal="MCN-MF" external="mcn"/>
+	<location internal="MCN-MF" external="McNary"/>
+	<location internal="MER-MF" external="mer"/>
+	<location internal="MER-MF" external="Merwin"/>
+<!--	<location internal="MON-MF" external=""/> -->
+<!--	<location internal="MOS-MF" external="mos"/> -->
+	<location internal="MOS-MF" external="Mossyrock"/>
+     	<!--	<location internal="MRF-MF" external=""/> -->
+<!--	<location internal="MUC-MF" external=""/> -->
+	<location internal="NAK-MF" external="NAK"/>
+	<location internal="NFK-MF" external="North_Fork"/>
+<!--	<location internal="NIN-MF" external=""/> -->
+<!--   	<location internal="NOX-MF" external="nox"/> -->
+    	<location internal="NOX-MF" external="NOX"/>
+    	<location internal="NOX-MF" external="Noxon_Rapids"/>
+<!--	<location internal="NSJ-MF" external=""/> -->
+<!--	<location internal="NSM-MF" external=""/> -->
+<!--	<location internal="NSR-MF" external=""/> -->
+<!--	<location internal="OAK-MF" external=""/> -->
+<!--	<location internal="OKA-MF" external=""/> -->
+<!--	<location internal="OKM-MF" external=""/> -->
+<!--	<location internal="ORO-MF" external=""/> -->
+<!--	<location internal="OXB-MF" external=""/> -->
+	<location internal="PAK-MF" external="Packwood_Lake"/> 
+	<location internal="PEL-MF" external="PEL"/>
+<!--	<location internal="PEN-MF" external=""/> -->
+<!--	<location internal="PFL-MF" external=""/> -->
+<!--	<location internal="PLS-MF" external=""/> -->
+<!--	<location internal="POC-MF" external=""/> -->
+<!--	<location internal="PPL-MF" external=""/> -->
+	<location internal="PRD-MF" external="prd"/>
+<!--	<location internal="PRF-MF" external=""/> -->
+    	<location internal="PSL-MF" external="Priest_Lake"/>
+<!--	<location internal="RAT-MF" external=""/> -->
+<!--	<location internal="RER-MF" external=""/> -->
+	<location internal="RIS-MF" external="Rock_Island"/>
+<!--	<location internal="RML?-MF" external=""/> -->
+	<location internal="ROS-MF" external="ROSS"/>
+	<location internal="ROU-MF" external="Round_Butte"/>
+	<location internal="ROU-MF" external="ROU"/>
+	<location internal="RRH-MF" external="rrh"/>
+	<location internal="RVC-MF" external="REV"/>
+	<location internal="RVC-MF" external="RVC"/>
+	<location internal="SEV-MF" external="SEV"/>
+	<location internal="SEV-MF" external="SEVEN_MILE"/>
+	<location internal="SHA-MF" external="sha"/>
+<!--	<location internal="SLM-MF" external=""/> -->
+<!--	<location internal="SLO-MF" external=""/> -->
+<!--	<location internal="SMH-MF" external=""/> -->
+<!--	<location internal="SPD-MF" external=""/> -->
+<!--	<location internal="SPO-MF" external=""/> -->
+<!--	<location internal="SPV-MF" external=""/> -->
+	<location internal="SUV-MF" external="Sullivan"/>
+<!--	<location internal="SVN-MF" external=""/> -->
+<!--	<location internal="SW2-MF" external=""/> -->
+	<location internal="SWF-MF" external="Swift"/>
+	<location internal="TDA-MF" external="tda"/>
+	<location internal="TDA-MF" external="The_Dalles"/>
+	<location internal="TMY-MF" external="Timothy"/>
+	<location internal="TOM-MF" external="Thompson_Falls"/>
+<!--	<location internal="TRB-MF" external=""/> -->
+<!--	<location internal="TRY-MF" external=""/> -->
+	<location internal="UBK-MF" external="ubk"/>
+<!--	<location internal="UBN-MF" external=""/> -->
+<!--	<location internal="UCF-MF" external=""/> -->
+<!--	<location internal="UMP-MF" external=""/> -->
+<!--	<location internal="UMR-MF" external=""/> -->
+<!--	<location internal="UMW-MF" external=""/> -->
+<!--	<location internal="UPC-MF" external=""/> -->
+<!--	<location internal="UPF-MF" external=""/> -->
+<!--	<location internal="UPS-MF" external=""/> -->
+	<location internal="WAN-MF" external="wan"/>
+        <location internal="WAT-MF" external="WANETA"/>
+<!--	<location internal="WAV-MF" external=""/> -->
+<!--	<location internal="WCR-MF" external=""/> -->
+	<location internal="WEL-MF" external="WELLS"/>
+<!--	<location internal="WEN-MF" external=""/> -->
+	<location internal="WGS-MF" external="WGS"/>
+<!--	<location internal="WHB-MF" external=""/> -->
+<!--	<location internal="WHS-MF" external=""/> -->
+<!--	<location internal="WHT-MF" external=""/> -->
+<!--	<location internal="WKO-MF" external=""/> -->
+<!--	<location internal="WMT-MF" external=""/> -->
+<!--	<location internal="WRF-MF" external=""/> -->
+<!--	<location internal="WWA-MF" external=""/> -->
+	<location internal="YAK-MF" external="YAK"/>
+	<location internal="YAL-MF" external="yal"/>
+	<location internal="YAL-MF" external="Yale"/>
+	<location internal="CP-MF" external="control_point"/>
+
+</idMap>
+

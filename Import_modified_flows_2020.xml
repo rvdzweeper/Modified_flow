@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timeSeriesImportRun xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews /chps/share/schemas/timeSeriesImportRun.xsd">
+	<import>
+	<general>
+		<importType>generalCSV</importType>
+
+		<folder>$IMPORT_FOLDER_HIST$/modified_flows</folder>
+		<fileNameLocationIdPattern>([A-Z]{3})6.{1,3}_daily.csv</fileNameLocationIdPattern>
+		<fileNameParameterIdPattern>.{4}([A-Z]{1,3})_daily.csv</fileNameParameterIdPattern>
+		<table>
+			<dateTimeColumn pattern="yyyy-MM-dd"/>
+			<valueColumn unit="CFSD"/>
+		</table>
+		<idMapId>IdImportMODIFIEDFLOWS</idMapId>
+		<unitConversionsId>ImportEnglishUnits</unitConversionsId>
+		<expiryTime unit="year" multiplier="100"/>
+	</general>
+	
+	<timeSeriesSet>
+		<moduleInstanceId>Import_modified_flows_2020</moduleInstanceId>
+		<valueType>scalar</valueType>
+		<parameterId>H</parameterId>
+		<qualifierId>2020</qualifierId>
+		<locationSetId>ModifiedFlows</locationSetId>
+		<timeSeriesType>external historical</timeSeriesType>
+		<timeStep unit="day" multiplier="1"/>
+		<readWriteMode>add originals</readWriteMode>
+		<synchLevel>4</synchLevel>
+	</timeSeriesSet>
+	
+	<timeSeriesSet>
+		<moduleInstanceId>Import_modified_flows_2020</moduleInstanceId>
+		<valueType>scalar</valueType>
+		<parameterId>S</parameterId>
+		<qualifierId>2020</qualifierId>
+		<locationSetId>ModifiedFlows</locationSetId>
+		<timeSeriesType>external historical</timeSeriesType>
+		<timeStep unit="day" multiplier="1"/>
+		<readWriteMode>add originals</readWriteMode>
+		<synchLevel>4</synchLevel>
+	</timeSeriesSet>
+	
+	<timeSeriesSet>
+		<moduleInstanceId>Import_modified_flows_2020</moduleInstanceId>
+		<valueType>scalar</valueType>
+		<parameterId>A</parameterId>
+		<qualifierId>2020</qualifierId>
+		<locationSetId>ModifiedFlows</locationSetId>
+		<timeSeriesType>external historical</timeSeriesType>
+		<timeStep unit="day" multiplier="1"/>
+		<readWriteMode>add originals</readWriteMode>
+		<synchLevel>4</synchLevel>
+	</timeSeriesSet>
+	
+	<timeSeriesSet>
+		<moduleInstanceId>Import_modified_flows_2020</moduleInstanceId>
+		<valueType>scalar</valueType>
+		<parameterId>L</parameterId>
+		<qualifierId>2020</qualifierId>
+		<locationSetId>ModifiedFlows</locationSetId>
+		<timeSeriesType>external historical</timeSeriesType>
+		<timeStep unit="day" multiplier="1"/>
+		<readWriteMode>add originals</readWriteMode>
+		<synchLevel>4</synchLevel>
+	</timeSeriesSet>
+	
+	<timeSeriesSet>
+		<moduleInstanceId>Import_modified_flows_2020</moduleInstanceId>
+		<valueType>scalar</valueType>
+		<parameterId>P</parameterId>
+		<qualifierId>2020</qualifierId>
+		<locationSetId>ModifiedFlows</locationSetId>
+		<timeSeriesType>external historical</timeSeriesType>
+		<timeStep unit="day" multiplier="1"/>
+		<readWriteMode>add originals</readWriteMode>
+		<synchLevel>4</synchLevel>
+	</timeSeriesSet>
+	
+	<timeSeriesSet>
+		<moduleInstanceId>Import_modified_flows_2020</moduleInstanceId>
+		<valueType>scalar</valueType>
+		<parameterId>G</parameterId>
+		<qualifierId>2020</qualifierId>
+		<locationSetId>ModifiedFlows</locationSetId>
+		<timeSeriesType>external historical</timeSeriesType>
+		<timeStep unit="day" multiplier="1"/>
+		<readWriteMode>add originals</readWriteMode>
+		<synchLevel>4</synchLevel>
+	</timeSeriesSet>
+	
+	<timeSeriesSet>
+		<moduleInstanceId>Import_modified_flows_2020</moduleInstanceId>
+		<valueType>scalar</valueType>
+		<parameterId>ARF</parameterId>
+		<qualifierId>2020</qualifierId>
+		<locationSetId>ModifiedFlows</locationSetId>
+		<timeSeriesType>external historical</timeSeriesType>
+		<timeStep unit="day" multiplier="1"/>
+		<readWriteMode>add originals</readWriteMode>
+		<synchLevel>4</synchLevel>
+	</timeSeriesSet>
+	
+	<timeSeriesSet>
+		<moduleInstanceId>Import_modified_flows_2020</moduleInstanceId>
+		<valueType>scalar</valueType>
+		<parameterId>E</parameterId>
+		<qualifierId>2020</qualifierId>
+		<locationSetId>ModifiedFlows</locationSetId>
+		<timeSeriesType>external historical</timeSeriesType>
+		<timeStep unit="day" multiplier="1"/>
+		<readWriteMode>add originals</readWriteMode>
+		<synchLevel>4</synchLevel>
+	</timeSeriesSet>
+	
+	<timeSeriesSet>
+		<moduleInstanceId>Import_modified_flows_2020</moduleInstanceId>
+		<valueType>scalar</valueType>
+		<parameterId>EE</parameterId>
+		<qualifierId>2020</qualifierId>
+		<locationSetId>ModifiedFlows</locationSetId>
+		<timeSeriesType>external historical</timeSeriesType>
+		<timeStep unit="day" multiplier="1"/>
+		<readWriteMode>add originals</readWriteMode>
+		<synchLevel>4</synchLevel>
+	</timeSeriesSet>
+	
+	<timeSeriesSet>
+		<moduleInstanceId>Import_modified_flows_2020</moduleInstanceId>
+		<valueType>scalar</valueType>
+		<parameterId>D</parameterId>
+		<qualifierId>2020</qualifierId>
+		<locationSetId>ModifiedFlows</locationSetId>
+		<timeSeriesType>external historical</timeSeriesType>
+		<timeStep unit="day" multiplier="1"/>
+		<readWriteMode>add originals</readWriteMode>
+		<synchLevel>4</synchLevel>
+	</timeSeriesSet>
+	
+	<timeSeriesSet>
+		<moduleInstanceId>Import_modified_flows_2020</moduleInstanceId>
+		<valueType>scalar</valueType>
+		<parameterId>DD</parameterId>
+		<qualifierId>2020</qualifierId>
+		<locationSetId>ModifiedFlows</locationSetId>
+		<timeSeriesType>external historical</timeSeriesType>
+		<timeStep unit="day" multiplier="1"/>
+		<readWriteMode>add originals</readWriteMode>
+		<synchLevel>4</synchLevel>
+	</timeSeriesSet>
+	
+	<timeSeriesSet>
+		<moduleInstanceId>Import_modified_flows_2020</moduleInstanceId>
+		<valueType>scalar</valueType>
+		<parameterId>M</parameterId>
+		<qualifierId>2020</qualifierId>
+		<locationSetId>ModifiedFlows</locationSetId>
+		<timeSeriesType>external historical</timeSeriesType>
+		<timeStep unit="day" multiplier="1"/>
+		<readWriteMode>add originals</readWriteMode>
+		<synchLevel>4</synchLevel>
+	</timeSeriesSet>
+	
+	<timeSeriesSet>
+		<moduleInstanceId>Import_modified_flows_2020</moduleInstanceId>
+		<valueType>scalar</valueType>
+		<parameterId>NP</parameterId>
+		<qualifierId>2020</qualifierId>
+		<locationSetId>ModifiedFlows</locationSetId>
+		<timeSeriesType>external historical</timeSeriesType>
+		<timeStep unit="day" multiplier="1"/>
+		<readWriteMode>add originals</readWriteMode>
+		<synchLevel>4</synchLevel>
+	</timeSeriesSet>
+
+	<timeSeriesSet>
+		<moduleInstanceId>Import_modified_flows_2020</moduleInstanceId>
+		<valueType>scalar</valueType>
+		<parameterId>R</parameterId>
+		<qualifierId>2020</qualifierId>
+		<locationSetId>ModifiedFlows</locationSetId>
+		<timeSeriesType>external historical</timeSeriesType>
+		<timeStep unit="day" multiplier="1"/>
+		<readWriteMode>add originals</readWriteMode>
+		<synchLevel>4</synchLevel>
+	</timeSeriesSet>
+	</import>
+	
+</timeSeriesImportRun>
