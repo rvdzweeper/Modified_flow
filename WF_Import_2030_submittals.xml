@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workflow xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.wldelft.nl/fews /chps/share/schemas/workflow.xsd" version="1.1">
+
+	<activity>
+		<moduleInstanceId>Import_2030_submittals</moduleInstanceId>
+	</activity>
+	<activity>
+		<properties>
+                        <string key="CURR_MF" value="2030"></string>
+                </properties>
+		<moduleInstanceId>Inflow_Outflow_Mass_Balance</moduleInstanceId>
+	</activity>
+
+</workflow>
